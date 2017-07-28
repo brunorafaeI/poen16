@@ -31,7 +31,7 @@
     <br/>
 
     <div id="prod-msg"></div>
-    <div class="panel panel-info">
+    <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">Liste de produits</h3>
         </div>
@@ -55,10 +55,10 @@
                     <td>{{ product.prod_quantity }}</td>
                     <td>
                         <a href="javascript:void(0)" ng-click="prod_edit(this)">
-                            <i class="fa fa-edit"> Modifier</i>
+                            <i class="fa fa-edit"></i>
                         </a> |
                         <a href="javascript:void(0)" ng-click="prod_delete(product.prod_id)">
-                            <i class="fa fa-trash"> Supprimer</i>
+                            <i class="fa fa-trash"></i>
                         </a>
                     </td>
                 </tr>
